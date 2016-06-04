@@ -86,7 +86,13 @@
  * );
  * @endcode
  */
- $databases = array();
+$databases['default']['default'] = array(
+  'driver'   => 'mysql',
+  'database' => $_SERVER['MYSQL_DATABASE'],
+  'username' => $_SERVER['MYSQL_USER'],
+  'password' => $_SERVER['MYSQL_PWD'],
+  'host'     => $_SERVER['MYSQL_HOST'],
+);
 
 /**
  * Customizing database settings.
