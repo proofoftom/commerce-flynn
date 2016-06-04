@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55c19643fa949474d84a9d96f27f4aa7",
-    "content-hash": "a267d540ef0334f6feefd77d19e171fd",
+    "hash": "00c416d45d9f5de55fcaba60c4f58422",
+    "content-hash": "56fab140dde4edf309ac7f3c914c6ca3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1009,7 +1009,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/address-8.x-1.0-beta3.zip",
-                "reference": null,
+                "reference": "436f4f45c86e1c041110f05f9cfb35ac317f9f52",
                 "shasum": null
             },
             "require": {
